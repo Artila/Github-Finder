@@ -21,6 +21,8 @@
 
 首先，构建页面，这个就不自己写了，直接找个 bootstrap 模板，[最简单的](http://getbootstrap.com/examples/starter-template/)就足够了,把源代码 copy 过来。
 
+也可以在 [Bootswatch](http://bootswatch.com/) 选择一个自己喜欢的 bootstrap 主题。
+
 把不需要的部分删删减减，主要是 css 和 js 的引入，换成自己需要的，主要是 bootstrap 的 css 和 js ,记得选合适的版本。
 
 还有 jQuery ，要放在  bootstrap 的链接前面，国内有很多合适的 cdn 。
