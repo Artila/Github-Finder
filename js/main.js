@@ -17,10 +17,10 @@ $(document).ready(function() {
 					$('#repos').append(`
 						<div class="well">
 							<div class="row">
-								<div class="col-md-7">
+								<div class="col-md-6">
 									<strong>${repo.name}</strong> ${repo.description}
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-4">
 									<span class="label label-default">Forks: ${repo.forks_count}</span>
 									<span class="label label-primary">Watchers: ${repo.watchers_count}</span>
 									<span class="label label-success">Stars: ${repo.stargazers_count}</span>						
